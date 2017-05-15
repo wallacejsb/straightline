@@ -1,2 +1,2 @@
-public abstract class Stm extends AST{
+public abstract class Stm extends AST {
 }

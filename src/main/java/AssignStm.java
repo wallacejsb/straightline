@@ -11,8 +11,8 @@ public class AssignStm extends Stm {
    @Override
    public String toString() {
       return "AssignStm{" +
-              "id='" + id + '\'' +
-              ", exp=" + exp +
-              '}';
+             "id='" + id + '\'' +
+             ", exp=" + exp +
+             '}';
    }
 }

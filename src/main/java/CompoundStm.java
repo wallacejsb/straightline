@@ -1,21 +1,18 @@
-/**
- * Created by wallace on 10/05/17.
- */
-public class CompoundStm extends Stm{
+public class CompoundStm extends Stm {
 
-    public final Stm stm1;
-    public final Stm stm2;
+   public final Stm stm1;
+   public final Stm stm2;
 
-    public CompoundStm(Stm stm1, Stm stm2) {
-        this.stm1 = stm1;
-        this.stm2 = stm2;
-    }
+   public CompoundStm(Stm stm1, Stm stm2) {
+      this.stm1 = stm1;
+      this.stm2 = stm2;
+   }
 
-    @Override
-    public String toString() {
-        return "CompoundStm{" +
-                "stm1=" + stm1 +
-                ", stm2=" + stm2 +
-                '}';
-    }
+   @Override
+   public String toString() {
+      return "CompoundStm{" +
+             "stm1=" + stm1 +
+             ", stm2=" + stm2 +
+             '}';
+   }
 }
