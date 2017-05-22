@@ -1,4 +1,6 @@
-# The straightline programming language
+% The straightline programming language
+
+# Straightline
 
 **Straightline** is a micro programming language used in the book series _Modern Compiler Implementation_ by Andrew Appel.
 
@@ -12,12 +14,12 @@ In order to develop the activities of the BCC328 (Compiler Construction 1) cours
 - [Log in](https://github.com/login) to github.
 - Visit the main [straightline](https://github.com/romildo/straightline) project page.
 - Fork the straightline project. For that use the `Fork` buttom at the top right of the project page.
-![forking](images/fork.png)
-This will create your own copy of the main repository. It can be freely modified by you. But probably you do not have permission to modify the main repository.
+  ![forking](images/fork1.png)  
+  This will create your own copy of the main repository. It can be freely modified by you. But probably you do not have permission to modify the main repository.
 - In your computer clone your fork of the straightline project. Notice that in the commands that follow any text written between angular brackets `<>` shold be replaced by more appropriate text, according to your setup. For instance `<working directory` should be replaced by the name of the directory (folder) for the working activities.
 ```
 $ cd <working directory>
-$ git clone https://github.com/romildo/straightline.git
+$ git clone https://github.com/<owner>/straightline.git
 $ cd straightline
 ```
 - Set the the upstream remote repository for your clone. The upstream remote repository is the main repository of the project from which the fork was made.
@@ -144,7 +146,7 @@ print(b)
 
 ```
 
-![forking](images/ast.png)
+![ast](images/ast.png)
 
 ## General guidelines for building the AST
 
@@ -166,7 +168,7 @@ Add a `Main` class to the project, with a `main` method that creates the AST for
 As an example, below is the AST for the program:
 
 ```
-a := 3 + 4 * 5;
+x := 2 + 3 * 4;
 print(a)
 ```
 
